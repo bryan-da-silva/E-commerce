@@ -1,0 +1,101 @@
+.Footer{
+    background-color: #333;
+    height:20rem;
+}
+.rowFooter{
+    display: flex;
+    justify-content: center;
+}
+.rowFooter ul{
+    color: #fff;
+    list-style: none;
+    margin-right: 15rem;
+}
+.rowFooter ul li:nth-child(2){
+    margin: 10px 0px;
+}
+
+.info{
+    display: flex;
+    justify-content: center;
+    margin-top: 3rem;
+}
+.legal h1{
+    text-align: start;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size:15px;
+    margin-bottom: 15px;
+}
+
+.legal p{
+    font-size: 14px;
+}
+
+.legal{
+    text-align: start;
+    width: 18%;
+    color: #fff;
+}
+.info1 span {
+    height: 4rem;
+    width: 4rem;
+    background-color: #0f0f0f6b;
+    border-radius: 50%;
+    margin-right: 1.3rem;
+    display: flex;
+    justify-content: center;
+}
+.infoVille{
+    display: flex;
+}
+.infoVille span{ 
+    display: flex;
+    justify-content: center;
+    padding-top: 12px;
+} 
+.infoNum{
+    display: flex;
+    margin: 1rem 0px;
+}
+.infoNum span{
+    padding-top: 15px;
+}
+.infoMail{
+    display: flex;
+}
+.infoMail span{
+    padding-top: 15px;
+}
+
+.info ul li{
+    padding-top: 12px;
+}
+
+.legal ul{
+    display: flex;
+}
+
+.legal span{
+    background-color: #0f0f0f6b;
+    height: 3rem;
+    width: 3rem;
+    display: flex;
+    justify-content: center;
+    border-radius: 5px;
+    margin-right: 1rem;
+    margin-top: 1rem;
+}
+
+#facebook span{
+    padding-top: 7px;
+}
+#twitter span{
+    padding-top: 7px;
+}
+#linkedin span{
+    padding-top: 7px;
+}
+#instagram span{
+    padding-top: 7px;
+}

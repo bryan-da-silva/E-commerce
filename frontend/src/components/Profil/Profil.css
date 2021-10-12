@@ -1,0 +1,70 @@
+.container{
+    width: 50%;
+    height: auto;
+    margin: 50px auto 50px auto;
+    padding: 0px;
+    display: block;
+}
+
+.wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-column-gap: 25px;
+    grid-row-gap: 25px;
+}
+
+.container > .wrapper > .box{
+    width: 100%;
+    height: auto;
+    padding: 25px;
+    border-radius: 5px;
+    box-sizing: border-box;
+    border: 1px solid #cfcfcf;
+}
+
+.container > .wrapper > .box > .title{
+    font-weight: bold;
+}
+
+.container > .wrapper > .box > .content{
+    margin-top: 20px;
+    box-sizing: border-box;
+}
+
+.container > .wrapper > .box > .content > form{
+    width: 100%;
+    height: auto;
+    box-sizing: border-box;
+}
+
+.container > .wrapper > .box > .content > form > .oldmail{
+    width: 100%;
+    height: auto;
+    padding: 7px;
+    box-sizing: border-box;
+    border-radius: 5px;
+    user-select: none;
+    background-color: #cfcfcf;
+    color: #616161;
+    font-size: 14px;
+}
+
+.container > .wrapper > .box > .content > form > input{
+    width: 100%;
+    height: auto;
+    margin-top: 5px;
+    padding: 7px;
+    box-sizing: border-box;
+    outline: none;
+    border-radius: 5px;
+    border: 1px solid #cfcfcf;
+    font-size: 13px;
+}
+
+.container > .wrapper > .box > .content > form > input[type="submit"]{
+    cursor: pointer;
+    background-color: #3399ff;
+    color: #ffffff;
+    font-weight: bold;
+    text-transform: uppercase;
+}

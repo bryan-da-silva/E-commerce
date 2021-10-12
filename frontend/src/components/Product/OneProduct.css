@@ -1,0 +1,82 @@
+.wrapper_produits{
+    display: grid;
+    grid-template-columns: 1.3fr 1fr;
+    grid-column-gap: 25px;
+    grid-row-gap: 25px;
+}
+
+.wrapper_produits > .produits{
+    width: 100%;
+    height: auto;
+    padding: 25px;
+    box-sizing: border-box;
+    background-color: #e8e8e8;
+    /* background-image: url(https://i.imgur.com/DWMOgDT.png); */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 85%;
+}
+
+.wrapper_produits > .affichage{
+    width: 100%;
+    height: auto;
+    padding: 25px;
+    box-sizing: border-box;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+.wrapper_produits > .affichage > .name_produits{
+    width: 100%;
+    font-weight: bold;
+    text-align: center;
+}
+
+.wrapper_produits > .affichage > .available{
+    width: 100%;
+    margin-top: 15px;
+    color: green; /* ou red */
+    font-weight: bold;
+}
+
+.wrapper_produits > .affichage > .description{
+    width: 100%;
+    margin-top: 25px;
+    padding: 10px;
+    box-sizing: border-box;
+    border-radius: 5px;
+    background-color: #e8e8e8;
+}
+
+.wrapper_produits > .affichage > .prix{
+    width: 100%;
+    margin-top: 15px;
+    color: #FF5722;
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.wrapper_produits > .affichage > form{
+    width: 100%;
+    margin-top: 15px;
+    box-sizing: border-box;
+}
+
+.wrapper_produits > .affichage > form > input[type=number]{
+    width: 100%;
+    height: auto;
+    margin: 15px 0px 0px 0px;
+    padding: 10px;
+    overflow: hidden;
+    outline: hidden;
+    border: 1px solid #ccc;
+}
+
+.wrapper_produits > .affichage > form > input[type=button]{
+    width: 100%;
+    height: auto;
+    margin: 15px 0px 0px 0px;
+    padding: 10px;
+    background-color: red;
+}

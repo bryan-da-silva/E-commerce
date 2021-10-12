@@ -1,0 +1,113 @@
+/* .category-content {
+    display: flex;
+    justify-content: center;
+    background-color: #eeeeee;
+} */
+
+/* .category { */
+    /* border: black solid 1px; */
+    /* width: 100%;
+    display: flex; */
+    /* margin: 50px;
+    padding: 50px;
+    background-color: #fff; */
+/* } */
+/* 
+.cat{
+    width: 100%;
+    margin: 50px;
+    padding: 50px;
+    background-color: #fff;
+} */
+
+.wrapper_categories{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-column-gap: 25px;
+    grid-row-gap: 25px;
+}
+
+.wrapper_categories > .box_categories{
+    width: 100%;
+    height: auto;
+    min-height: 250px;
+    margin: 0px;
+    padding: 25px;
+    box-sizing: border-box;
+    border-radius: 5px;
+    position: relative;
+    border: 1px solid #616161;
+    cursor: pointer;
+    transform: scale(1);
+    transition-property: transform;
+    transition-duration: 400ms;
+}
+
+.wrapper_categories > .box_categories:hover{
+    transform: scale(1.06);
+}
+
+
+.wrapper_categories > .box_categories > .img_categories{
+    width: 100%;
+    height: 248px;
+    bottom: 0;
+    left: 0;
+    z-index: 5;
+    position: absolute;
+    background-image: url(https://i.imgur.com/btx5ZLA.png);
+    background-position:  0px 0px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.wrapper_categories > .box_categories > .img_categories > .title_categories{
+    float: right;
+    /* margin-top: 20px; */
+    z-index: 15;
+    color: #3399ff;
+    font-size: 16px;
+    font-weight: bold;
+    text-transform: uppercase;
+    width: 100%;
+}
+
+.wrapper_categories > .box_categories > .button_categories{
+    width: 45px;
+    height: 45px;
+    margin-top: 145px;
+    border-radius: 50%;
+    float: right;
+    background-color: #3399ff;
+    color: #ffffff;
+    font-weight: bold;
+    text-align: center;
+    line-height: 3.8;
+    display:none;
+}
+
+.wrapper_categories > .box_categories > .img_back{
+    width: 100%;
+    height: 89%;
+    /* z-index: 1; */
+    position: absolute;
+    /* background-position: center; */
+    background-repeat: no-repeat;
+    background-size: 81%;
+}
+
+.wrapper_categories > .box_categories > .img_categories > .title_categories > p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.link{
+    height: 100%;
+    width:100%;
+    position: absolute;
+    color: #3399ff;
+    text-align: center;
+}
+.link:visited{
+    color: #3399ff;
+}

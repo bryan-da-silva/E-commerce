@@ -1,0 +1,88 @@
+.rowAcceuil{
+    margin: 4rem 0px;
+}
+.box{
+    width: 16rem;
+    height: 13rem;
+}
+
+.allBox{
+    display:flex;
+    justify-content: center;
+}
+.BoxPcPortable{
+    background-color: #ccc;
+    box-shadow: 6px 7px 2px #3399cc;
+    cursor: pointer;
+    transform: scale(1);
+    transition-property: transform;
+    transition-duration: 400ms;
+    /* border-top: 208px solid #3399ff71;
+    border-right: 260px solid #ccc; */
+}
+.BoxPcPortable:hover{
+    transform: scale(1.06);
+}
+.BoxPc{
+    background-color: #ccc;
+    display: flex;
+    justify-content: center;
+    margin: 0px 6rem;
+    box-shadow: 6px 7px 2px #3399cc;
+    cursor: pointer;
+    transform: scale(1);
+    transition-property: transform;
+    transition-duration: 400ms;
+}
+.BoxPc:hover{
+    transform: scale(1.06);
+}
+.BoxPériphériques{
+    background-color: #ccc;
+    display: flex;
+    justify-content: center;
+    box-shadow: 6px 7px 2px #3399cc;
+    cursor: pointer;
+    transform: scale(1);
+    transition-property: transform;
+    transition-duration: 400ms;
+}
+.BoxPériphériques:hover{
+    transform: scale(1.06);
+}
+
+.promo{
+    padding: 20px 0px;
+    background-color: #8a8a8a;
+    display: flex;
+    justify-content: center;
+}
+.promo h1{
+    text-transform: uppercase;
+    color: #3399ff;
+    text-align: start;
+    margin-bottom: 1rem;
+}
+.promo p{
+    color: #3399ff;
+    text-align: start;
+    letter-spacing: 1px; 
+}
+.descPromos{
+    width: 30%;
+    margin-right: 6rem;
+    margin-top: 39px;
+}
+.imgPromo{
+    width: 28rem; 
+    height: 19rem;
+}
+.pc-portable{
+    width: 15.8rem;
+}
+.pc{
+    width: 13rem
+}
+.periph{
+    width: 13.3rem;
+}

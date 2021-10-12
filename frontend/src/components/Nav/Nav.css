@@ -1,0 +1,142 @@
+.containertest{
+    width: 50%;
+    height: auto;
+    margin: 0px auto 0px auto;
+    padding: 0px;
+    display: block;
+}
+
+.containerNav{
+    width: 100%;
+    /* position: fixed; */
+}
+
+.auth{
+    height: 20%;
+    color: #3399ff;
+    background-color: #000;
+}
+
+.listAuth{
+    width: auto;
+    list-style: none;
+    display: flex;
+    padding: 13px 0px;
+    box-sizing: border-box;
+}
+
+.listAuth li {
+    margin-right: 1.6rem;
+    cursor: pointer;
+    transform: scale(1);
+    transition-property: transform;
+    transition-duration: 400ms;
+}
+.listAuth a:visited {
+    color: #3399cc;
+}
+.listAuth li:hover {
+    transform: scale(1.25);
+    color: #fff;
+}
+.middleNav {
+    background-color:#101010;
+    padding: 2rem 0px;
+    display: flex;
+    justify-content: center;
+    border-bottom: 4px solid #3399ff;
+}
+.rowMiddleNav{
+    display:flex;
+    /* width: 50%; */
+    justify-content: space-between;
+}
+.rowMiddleNav h1{
+    text-transform: uppercase;
+    color: #fff;
+}
+.searchBar{
+    margin-left: 2rem;
+    width: 23.3rem;
+    height: 2rem;
+    margin-right: 2rem;
+}
+.list{
+    display: flex;
+    justify-content: space-between;
+    /* width: 9.5rem;
+    margin-left: 2rem; */
+    width: 21%;
+    justify-content: space-between;
+
+}
+.buyList{
+    color: #fff;
+}
+.buy{
+    color: #fff;
+}
+
+.hearth{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 3px;
+}
+
+.cart{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 3px;
+}
+
+.profile{
+    color: #fff;
+}
+.profile-icon{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 3px;
+    text-decoration: none;
+    color: #fff;
+}
+.profile-color{
+    color: white;
+}
+
+.navLink{
+    box-shadow: 0px 2px 2px #747272a2;
+    height:1.8rem;
+}
+
+.navLink ul{
+    list-style: none;
+ 
+    width: 100%;
+    margin-top: 8px;
+}
+.navLink ul li{
+    display: inline-block;
+    cursor: pointer;
+    transform: scale(1);
+    transition-property: transform;
+    transition-duration: 400ms;
+    margin-right: 25px;
+    width: auto;
+}
+.navLink ul li:hover{
+    transform: scale(1.1);
+    color: #3399ff;
+}
+.navLink a:nth-child(1){
+    color: #3399ff;
+}
+a{
+    text-decoration: none;
+}
+.navLink a:visited{
+    color: #000;
+}
+.navLink a{
+    color: #000;
+    margin-right: 15px;
+}

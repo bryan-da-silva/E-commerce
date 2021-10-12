@@ -1,0 +1,12 @@
+.RouteNotFound {
+    text-align: center;
+    font-weight: bold;
+    font-size: 700%;
+    margin-top: 5%;
+}
+
+.notFound {
+    text-align: center;
+    font-size: 400%;
+    margin-bottom: 8%;
+}
